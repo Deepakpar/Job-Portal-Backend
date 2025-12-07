@@ -5,10 +5,6 @@ const Job = require("../models/Job");
 exports.applyJob = async (req, res) => {
     try {
 
-         console.log("🔥 ID received from Postman:", req.params.id);
-
-        const check = await Application.findById(req.params.id);
-        console.log("🔥 App found:", check);
 
         const jobId = req.params.jobId;
 
