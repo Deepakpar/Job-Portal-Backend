@@ -6,7 +6,6 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 
 module.exports = {
     MONGODB_URI,
-    PORT,
     JWT_SECRET,
     NODE_ENV
 }
